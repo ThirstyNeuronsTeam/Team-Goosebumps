@@ -1,0 +1,24 @@
+Accessiblity - For Disabled People
+Performance
+Loading Time should be less
+Look and Feel should be good (UX)
+
+
+Industries -Live Server, NodeJS(JavaScript will get processed by NodeJS during development) , Visual Studio Code(to type your code) ,  GitHub(centralized)
+
+Plan - Adobe Xd or Figma  
+Prepare required materials -  HTML , CSS , JavaScript
+Construction Started - Bricks , Sand - HTML
+Paint - CSS
+Electricity - JavaScript
+Inspection - Linting
+We should give key to Owner - Client
+
+
+txt - extension
+
+
+HTML 
+  head
+    script
+  body
