@@ -4,3 +4,8 @@ transparent - you can see through it
 opacity - 1 , you cannot see through it - opaque
 opacity - 0 - you can completly see through it - complete transparent
 opacity - 0.5 - you can partially see through it - partially transparent
+
+margin - distance your home and neighbourhood home
+padding - spacing within your home
+
+vw - viewport width - browser width
