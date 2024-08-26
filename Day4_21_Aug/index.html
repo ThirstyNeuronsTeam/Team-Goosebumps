@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      function changeToRed() {
+        const box = document.getElementById("title");
+        console.log("printing the data inside the box");
+        console.log(box);
+
+        console.log(document.getElementById("redChanger"));
+        box.style.color = "red";
+      }
+      function changeToYellow() {
+        const box = document.getElementById("title");
+        box.style.color = "yellow";
+        box.style.fontSize = "55px";
+      }
+    </script>
+    <style>
+      .parent {
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <span id="title" style="color: yellow; font-size: 35px"
+        >i have started to learn web development</span
+      >
+      <button id="redChanger" onclick="changeToRed()">change to red</button>
+      <button onclick="changeToYellow()">change to yellow</button>
+    </div>
+  </body>
+</html>

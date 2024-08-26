@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function changeToRed() {
+            const box = document.getElementById("title")
+            box.style.color = "red"
+        }
+        function changeToYellow() {
+            const box = document.getElementById("title")
+            box.style.color="yellow"
+            box.style.fontSize="55px"
+        }
+    </script>
+</head>
+<body>
+    <span id="title" style="color:yellow;font-size: 35px;">i have started to learn web development</span>
+    <button onclick="changeToRed()">change to red</button>
+    <button onclick="changeToYellow()">change to yellow</button>
+</body>
+</html>

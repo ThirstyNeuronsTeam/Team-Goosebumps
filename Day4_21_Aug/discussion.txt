@@ -1,0 +1,29 @@
+HMTL - Decalrative programming
+JavaScript - Imperative programming
+
+
+React - Converting Imperative to Decalrative programming
+React is made up of JavaScript
+
+React , Angular , Vue , Svelte
+
+
+calling button 
+I am going to click you , I have clicked  (onclick event/command)
+yes boss , I will do my job - changeToRed (function changeToRed)
+   search span inside document
+      button says document to do another work - get element by Id
+
+
+
+display
+  block - need to occupy entire rwo
+  inline-block - give space to others
+  flex - row/column
+  
+
+Block Scope - let , const cannot be accessed outside , but var can be accessed
+Function Scope - let , const , var cannot be accessed outside
+Global Scope - var 
+//Module Scope
+  
