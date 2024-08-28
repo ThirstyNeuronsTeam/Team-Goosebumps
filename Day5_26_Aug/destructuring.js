@@ -5,7 +5,7 @@ console.log(address.age);
 console.log(address.city);
 
 //address.city
-const {city,married,name,age} = address
+const {city} = address
 console.log(city);
 
 const climates = ["winter","summer"]
