@@ -1,0 +1,23 @@
+#list {
+    width: 200px;
+    border: 2px solid black;
+  }
+
+  .spansParent {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .span1 {
+    width: 50%;
+    background-color: red;
+    display: flex;
+    place-content: center;
+  }
+  .span2 {
+    width: 50%;
+    background-color: bisque;
+    display: flex;
+    place-content: center;
+  }
