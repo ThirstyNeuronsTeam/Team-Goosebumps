@@ -7,9 +7,9 @@ function add(a,b){
 }
 //the function without name is known as Anonymous Function
 
-const age = 45;
 //Fat Arrow Function
 //Arrow Function
+//A2B
 const add = (a,b) => {
     const c =  a+b
     return c;
