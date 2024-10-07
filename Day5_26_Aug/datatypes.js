@@ -4,10 +4,11 @@
 
 //////// PRIMITIVE TYPES
 //string type ""
-const oldStudentName = "Bhuvanesh"; //m1
-let newStudentName = oldStudentName; //m2
-newStudentName = "Ganesh";
-console.log("string",oldStudentName,newStudentName);
+const oldStudentName = "Bhuvanesh"; //m1 // CREATE OLD 
+let newStudentName = oldStudentName; //m2 // CREATE NEW AND assign OLD TO NEW
+newStudentName = "Ganesh"; // UPDATE
+newStudentName = "Mr. " + newStudentName //READ , append AND UPDATE
+console.log("string",oldStudentName,newStudentName); // READ
 
 //number type 
 const oldAge = 19;
@@ -23,9 +24,9 @@ console.log("boolean",isRaining,newIsRaining)
 
 ///////REFERENCE TYPES
 //object type {}
-const address = {name:"Bhuvanesh",age:19 } //m3
-const newAddress = address; //m3
-newAddress.name = "Rajini"
+const address = {name:"Bhuvanesh",age:19 } //m3 //CREATE
+const newAddress = address; //m3 //CREATE and assign
+newAddress.name = "Rajini" //UPDATE
 console.log("object",address,newAddress);
 
 //array type []

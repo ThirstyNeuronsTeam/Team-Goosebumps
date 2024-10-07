@@ -13,5 +13,7 @@ const integers = [2, 3, 1, 5, 6, 7];
   }); */
 
 const oddNumbers = integers.filter(integer => integer % 2 === 1);
+//[3,1,5,7]
 
-console.log(oddNumbers);
+console.log(oddNumbers[0]===3);
+console.log(oddNumbers[1]===3);

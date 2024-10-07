@@ -1,0 +1,55 @@
+Business Requiremnt:
+---------------------
+Given : List of songs
+What should happen -
+   When user clicks play - song should play 
+   When user clicks pause - song should stop
+   When user clicks prev button  - go to prev song and play song
+   When user clicks next button - go to next song and play the song
+   When user clicks progress bar , song should play from the particluar duration
+
+
+
+Design Elements
+----------------
+main background - static - div
+text - Music Player (static) - <span>
+image - song image (dynamic) - div / img
+button 1 - prev (interactive/event) - button
+button 2 - play/pause (interactive/event) - button
+button 3 - next (interactive/event)- button
+white background - static - div
+songname - dynamic - span
+progress  (interactive/event) - progress
+
+UI Tree
+--------
+
+MAIN -
+   title
+   SONG CONTROLS
+      image
+      prev, play , pause , next 
+      PROGRESS
+         song name , progree bar
+
+DATA Structure
+-------------
+
+array - songs - List of songs
+boolean - mode 0,1 - Play , Pause
+number - currentSongIndex = 0 , To maintain the current song currentSongIndex
+object - currentSongData - current song data
+
+
+Interactivity
+--------------
+
+  next button click -> currentSongIndex , mode = 1
+  prev button click  -> currentSongIndex , mode = 1
+  play button click -> mode = 1 -> playmode
+  pause button click -> mode = 0 -> pausemode
+
+
+    
+      

@@ -1,0 +1,32 @@
+From Scratch
+
+    index.html
+    css files
+    js files - 100 files
+    you will connect css files and js files using index.html
+        css - link tag
+        js - script tag
+
+
+Using Tool
+
+  WebPack
+ Vite
+
+
+MiniFication
+Bundling - 1 file (100kb)
+   10 files -
+
+   1 file  - home tab file
+
+Code Splitting - Lazy Loading 
+
+Eager Loading
+
+Linting
+
+Testing
+
+
+     
