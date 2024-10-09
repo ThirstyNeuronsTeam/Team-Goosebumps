@@ -34,6 +34,9 @@ function gotoPrevSong(){
     currentSongIndex = currentSongIndex - 1
 
     //0 appuram 2 varanum
+    if(currentSongData<0){
+        currentSongData = songsLength-1
+    }
     console.log(currentSongIndex)
     render()
 
