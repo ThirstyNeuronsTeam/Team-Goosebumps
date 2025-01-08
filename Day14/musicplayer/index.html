@@ -1,0 +1,33 @@
+<html>
+    <head>
+       
+    </head>
+    <body>
+        <div id="mainBackground">
+            <span>Music Player</span>
+            <img id="songImage">
+            <button id="prevButton">Prev</button>
+            <button  id="playButton">Play</button>
+            <button id="pauseButton">Pause</button>
+            <button id="nextButton">Next</button>
+            <audio id="speaker" autoplay></audio>
+            <div id="whiteBackground" style="width: 100px;height:100px;background-color:white"></div>
+            <div id="playBackground" style="width: 100px;height:100px;background-color:white"></div>
+            <span id="songName">Song Name</span>
+            <progress value="0.2"></progress>
+        </div>
+
+        <script src="./src/dynamicElements.js" ></script>
+        <script src="./src/data.js" ></script>
+        <script src="src/common.js" ></script>
+        <script src="src/components/next.js" ></script>
+        <script src="src/components/prev.js" ></script>
+        <script src="src/components/play.js" ></script>
+        <script src="src/components/pause.js" ></script>
+        <script src="src/components/speaker.js" ></script>
+        <script src="src/interaction.js"></script>
+        <script src="src/initialise.js" ></script>
+        <script src="src/render.js" ></script>
+    
+    </body>
+</html>

@@ -1,0 +1,19 @@
+1)Get Business Requirements From Manager- Completed
+2)Get Design from Designer- Completed
+3)Undertsand the elements present in the Design in layman terms- Completed
+4)Convert elements  to tags - Completed
+5)classify tags into static tags and dynamic tags- Completed
+6)Interactivity - chain steps
+7)Data Structure (5,6)
+8)Data Change(index) -> Render(image)
+
+
+Index.html
+----------
+   tags
+
+
+Main.js
+-------
+      - Get  Dyanmic Tags using getElementById
+      - Interactivity - 
